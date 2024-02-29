@@ -1,0 +1,35 @@
+.fondo{
+    background-color: rgb(244, 155, 82);
+}
+
+p{
+    font-size: 1em;
+    color: green;
+}
+
+#title{
+    color: blueviolet;
+    font-size: 4em; /*em es una medida relativa*/
+}
+
+#titulos{
+    border: 2px solid white; /*px es una medida absoluta*/
+    width: 65vw; /*viewport width (vw) es una medida relativa, es un 65% del ancho de la pantalla*/
+    margin: auto; /*el auto separa de forma proporcional respecto a lo que lo contiene*/
+    padding: 3em;
+}
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    height: 150px;
+    padding: 1em 1em 1em 5em;
+    border-radius: 15%;
+    transition: 1s;
+}
+
+/*hover es un pseudoselector*/
+
+.cards:hover{
+background-color: yellow;
+}
