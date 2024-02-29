@@ -19,17 +19,51 @@ p{
     padding: 3em;
 }
 
+.ingreso-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+border: 2px solid aqua; 
+}
+
+.ingreso-container .ingresos{
+    border: 2px solid pink;
+    align-items: end;
+}
+
 .cards{
     border: 2px solid black;
     width: fit-content;
-    height: 150px;
-    padding: 1em 1em 1em 5em;
+    height: 250px;
+    padding: 1em 2em 0em 2em;
     border-radius: 15%;
     transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.cards h4{
+    font-size: 1.2em;
+    color: red;
 }
 
 /*hover es un pseudoselector*/
 
 .cards:hover{
 background-color: yellow;
+}
+
+#cards-container{
+    background-color: orange;
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid red;
+    border-radius: 5%;
+    padding: 2em;
+    display: flex; /*A partir de ahora se trabaja con flexbox*/
+    flex-direction: row;
+    justify-content:space-evenly;
 }
