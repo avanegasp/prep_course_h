@@ -1,0 +1,43 @@
+/* Reset CSS , se coloca para retirar los estilos predeterminados*/
+
+/* Selector universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Establecer estilos predeterminados para elementos HTML */
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Resetear estilos de listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Resetear estilos de enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Resetear estilos de encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+}
+
+/* Resetear estilos de párrafos */
+p {
+    margin-bottom: 1em;
+}
+
+/* Resetear estilos de imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
